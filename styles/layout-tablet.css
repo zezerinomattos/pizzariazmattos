@@ -1,0 +1,111 @@
+/*----------------------------*/
+/*  TIPOGRAFIA                */
+/*----------------------------*/
+
+p.destaque, section#pizza p.destaque, section#testemunha p.destaque{
+    width: 80%;
+}
+
+/*  HEADER  */
+
+nav{
+    width: 100%;
+    left:0;
+    padding-right: 10px;
+}
+
+nav div{
+    width: 150PX;
+    height: 130px;
+    background-position: center bottom;
+}
+
+.logoEstatico{
+    margin-left:0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.itemEstatico{
+    padding: 19px 10px;
+
+}
+
+/*  SEÇÃO - DOMINGO PERFEITO  */
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita{
+    display: none;
+}
+
+div#domingo-perfeito-centro{
+    width: 95%;
+}
+
+
+/*  SEÇÃO - PIZZA */
+
+div#pizza-opcoes-mestre{
+    width: 95%;
+}
+
+/*  SEÇÃO - DEPOIMENTOS */
+
+div#testemunha-centro{
+    width: 60%;
+    margin-left: 25%;
+}
+
+div#testemunha-esquerda, div#testemunha-direita{
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    div#testemunha-centro{
+        width: 65%;            
+    }
+
+    section#testemunha div#testemunha-centro div#testemunhos ul{
+        background-color: aquamarine;
+        width: 300px;
+        height: 100%;
+        margin: 50px 5px;
+    }
+}
+
+/*   SEÇÃO - TRANSICAO  */
+
+div#transicao-testemunha-plano{
+    display: none;
+}
+
+/*   SEÇÃO - PLANOS  */
+
+div#planos-janela{
+    width: 100%;
+}
+
+div.planos{
+    margin: 80px 5px;
+}
+
+/*   FOOTER  */
+
+footer div#mapa, footer div#info{
+    width: 45%;
+}
+
+footer div#info{
+    margin-right: 36px;
+}
+
+footer div#redes-sociais ion-icon{
+    width: 10%;
+}
+ 
+footer div#pizza-rodape-decoracao{
+    display: none;
+}
